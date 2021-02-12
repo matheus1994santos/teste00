@@ -1,0 +1,250 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;} 
+
+body,html{ background: url('../images/sakura.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; }
+
+/*--------------------____________________HEADER_________________________________----------*/
+
+header.container{
+	max-width: 1366px;
+	width: 100%;
+	height: 48px;
+}
+
+/*-----------LOGOMARCA------------*/
+
+header.container > nav.nav-logo{
+	display: inline-block;
+	width: 130px;
+	height: 28px;
+	margin-top: 10px;
+	margin-left: 3%;
+}
+
+header.container > nav.nav-logo > h2 > a{
+	text-decoration: none;
+}
+
+/*-----------MENU DESKTOP---------*/
+
+header.container > nav.menu-desktop {
+	float: right;
+	clear: both;
+	padding-right: 2%;
+	margin-top: 15px;
+}
+
+header.container > nav.menu-desktop > ul > li{ 
+	display: inline; 
+	padding: 0 10px; 
+	margin: 0;
+	color: white;
+}
+
+header.container > nav.menu-desktop > ul > li > a:hover{
+	background-color: rgba(0,0,0,0.2);
+	padding: 10px 10px;
+	border-radius: 10px 10px;
+}
+
+header.container > nav.menu-desktop > ul > li > a{ 
+	text-decoration: none;
+	font-size: 12px;
+}
+
+/*--------------------____________________Banner_________________________________----------*/
+
+section.banner-topo{
+	text-align: center;
+	max-width: 1366px;
+	width: 100%;
+	height: 180px;
+}
+
+section.banner-topo > nav.banner{
+	position: relative;
+	top: 9px;
+	width: 80%;
+	height: 160px;
+	margin: 0 9%;
+	background: white;
+}
+
+section.banner-topo > nav.banner > div.penumbra{
+	width: 100%;
+	height:160px;
+	background: url('../images/flores.gif');
+	background-size: cover;
+	background-position: center;
+	/*background-color: rgba(111, 137, 242, 0.1);*/
+}
+
+section.banner-topo > nav.banner > div.penumbra > h2{
+	font-size: 50px;
+	position: relative;
+	top: 14px;
+}
+
+/*--------------------____________________container_________________________________----------*/
+
+section.container{
+	max-width: 1366px;
+	width: 96%;
+	height: 400px;
+	margin: 0 2% 8px 2%;
+	/*background-color: #6f89f2;*/
+}
+
+section.container > div.photo{
+	margin-top: 20px;
+	display: inline-block;
+	max-width: 400px;
+	width: 100%;
+	height: 360px;
+	margin-left: 4.7%;
+	text-align: center;
+}
+
+section.container > div.photo > h2.next{
+	font-size: 50px;
+	display: inline-block;
+	position: relative;
+	top: 150px;
+	right: 30%;
+	cursor: pointer;
+}
+
+section.container > div.photo > h2.ant{
+	font-size: 50px;
+	display: inline-block;
+	position: relative;
+	top: 150px;
+	left: 27%;
+	cursor: pointer;
+}
+
+
+section.container > div.photo > div.photo-1{
+	position: absolute;
+	margin-left: -32%; 
+	display: inline-block;
+	/*width: 260px;*/
+	width: 63%;
+	height: 360px;
+	background: url('../images/izallo-store06.jpeg');
+	background-size: 210px  358px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section.container > div.photo > div.photo-2{
+	position: absolute;
+	margin-left: -32%; 
+	display: inline-block;
+	display: none;
+	width: 63%;
+	height: 360px;
+	background: url('../images/izallo-store07.jpeg');
+	background-size: 210px  358px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section.container > div.photo > div.photo-3{
+	position: absolute;
+	margin-left: -32%; 
+	display: inline-block;
+	display: none;
+	width: 63%;
+	height: 360px;
+	background: url('../images/izallo-store08.jpeg');
+	background-size: 210px  358px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+section.container > article.content{
+	position: relative;
+	top: 20px;
+	float: right;
+	clear: both;
+	width: 40%;
+	height: 360px;
+	margin-right: 8.2%;
+}
+
+section.container > article.content > p.bloco{
+	position: relative;
+	top: 130px;
+	margin: 0% 2%;
+	/*display: inline-block;*/
+	float: right;
+	clear: both;
+	width: 80%;
+	height: auto;
+	font-size: 30px;
+	/*border: 1px solid rgb(76, 100, 237);*/
+	text-align: center;
+}
+
+/*--------------------____________________container_________________________________----------*/
+
+
+footer{
+	display: inline-block;
+	max-width: 1366px;
+	width: 100%;
+	height: 130px;
+}
+
+footer > div.corp{
+	display: inline-block;
+	width: 40%;
+	height: 130px;
+	margin-left: 4.6%;
+	/*background: black;*/
+	text-align: center;
+} 
+
+footer > div.corp > h3{
+	position: relative;
+	top: 52px;
+	display: inline-block;
+	width: 541px;
+	height: 40px;
+	font-size: 30px;
+} 
+
+footer > div.redes-social{
+	float: right;
+	clear: both;
+	width: 50%;
+	height: 130px;
+	margin-right: 5.3%;
+	/*background: green;*/
+	text-align: center;
+} 
+
+footer > div.redes-social > nav.rd{
+	position: relative;
+	top: 38px;
+} 
+
+footer > div.redes-social > h4{
+
+} 
+
+footer > div.redes-social > nav.rd > h4 > a{
+	text-decoration: none;
+}
+
+/*--------------------____________________Media Query's_________________________________----------*/
+
+@media screen and (max-width: 860px) {
+  	header.container > nav.menu-desktop {
+	display: none;
+	}
+}

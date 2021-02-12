@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html{
+	height: 100%;
+}
+
+
+/*=======================================================================================*/
+/*--------------------------------  header_container  -----------------------------------*/
+/*=======================================================================================*/
+
+/*-------------------- header_container_top --------------------*/
+
+.header_container_top{
+	width: 100%;
+	height: 30px;
+	background: #ccc;
+}
+
+.r-msg{
+	display: inline-block;
+	width: 240px;
+	height: 30px;
+	margin-left: 8px;
+}
+
+.r-msg label{
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.redes1{
+	float: right;
+	clear: both;
+	width: 200px;
+	height: 30px;
+}
+
+.redes1 .links{
+	margin-right: 8px;
+	margin-top: 1px;
+}
+
+
+
+i.icon-header{
+	font-size: 25px;
+	margin-top: 2px;
+	margin-right: 4px;
+	color: black;
+}
+
+/*-------------------- header_container_prin --------------------*/
+
+.header_container_prin{
+	width: 100%;
+	height: 79px;
+	background: #32a852;
+}
+
+.logo{
+	display: inline-block;
+	width: 120px;
+	height: 79px;
+	margin-left: 4%;
+}
+
+.logo a{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 18px;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+
+.header-menu{
+	float: right;
+	clear: both;
+	max-width: 260px;
+	width: 100%;
+	height: 79px;
+}
+
+.header-menu ul{
+	display: inline-block;
+	height: 79px;
+	margin-top: 28px;
+	margin-left: 51px;
+}
+
+.header-menu li{
+	display: inline-block;
+	margin-left: 6px;
+}
+
+.header-menu a{
+	text-decoration: none;
+	color: white;
+}
+
+/*=====================================================================================*/
+/*---------------------------------  All Container  -----------------------------------*/
+/*=====================================================================================*/
+
+
+/*------------------------  container_banner ----------------------------*/
+
+.container_banner{
+	width: 100%;
+	height: 560px;
+	background: #a83232;
+}
+
+
+/*=====================================================================================*/
+/*=====================================================================================*/
+
+
+
+/*-------------------------  container_tp1  -----------------------------*/
+
+.container_tp1{
+	width: 100%;
+	height: 480px;
+	background: #a87f32;
+}
+
+/*--------------------------  container_tp2  ----------------------------*/
+
+.container_tp2{
+	width: 100%;
+	height: 480px;
+	background: #faf170;
+}
+
+/*--------------------------  container_tp3  ----------------------------*/
+
+.container_tp3{
+	width: 100%;
+	height: 480px;
+	background: #66ff00;
+}
+
+/*--------------------------  container_tp4  ----------------------------*/
+
+.container_tp4{
+	width: 100%;
+	height: 480px;
+	background: #1bb39c;
+}
+
+/*--------------------------  container_tp5  ----------------------------*/
+
+.container_tp5{
+	width: 100%;
+	height: 480px;
+	background: #1b6cb3;
+}
+
+
+/*====================================================================================*/
+/*---------------------------------------  footer  -----------------------------------*/
+/*====================================================================================*/
+
+
+
+.footer-prin{
+	width: 100%;
+	height: 80px;
+	background: #b01bb3;
+}

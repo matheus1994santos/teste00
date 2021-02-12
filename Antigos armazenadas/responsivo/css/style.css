@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo{
+	float: left;
+	clear: both;
+}
+
+header{
+	padding: 10px 2%;
+	background: #1976d2;
+}
+
+nav.menu-desktop{
+	float: right;
+	clear: both;
+}
+
+nav.menu-desktop ul{
+	position: relative;
+	top: 4px;
+	list-style-type: none;
+}
+
+nav.menu-desktop li{
+	display: inline-block;
+	font-size: 16px;
+	padding: 0 15px;
+}
+
+nav.menu-desktop a{
+	float: right;
+	clear: both;
+}

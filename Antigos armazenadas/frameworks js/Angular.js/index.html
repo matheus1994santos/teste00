@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular</title>
+	<meta charset="utf-8">
+</head>
+<body ng-app="">
+
+
+	<div ng-init="myCol='lightblue'">
+
+	<input style="background-color:{{myCol}}" ng-model="myCol" value="">
+
+	<p>My first expression: {{ 5 + 5 }}</p>
+
+	</div>
+
+	<div ng-app="" ng-init="Col='lightblue'">
+
+	<input style="background-color:{{Col}}" ng-model="Col" value="">
+
+	<p>My first expression: {{ 5 + 5 }}</p>
+
+	</div>
+
+	<script src="js/angular.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

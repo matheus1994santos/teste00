@@ -1,0 +1,16 @@
+/*text*/
+header.container{
+	font-family: 'Barlow Condensed', sans-serif;
+	/*font-family: Snell Roundhand, cursive;*/
+}
+
+section.banner-topo > nav.banner > div.penumbra{
+	font-family: 'Dancing Script', cursive;
+}
+
+
+i.seta{
+	background: rgba(0, 0, 0, 0.3); 
+	width: 40px;
+	cursor: pointer;
+}
